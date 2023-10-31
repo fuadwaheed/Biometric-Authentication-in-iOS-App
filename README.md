@@ -21,4 +21,4 @@ Views
 1. Main Storyboard contains all views
 2. LaunchScreen Storyboard contains Launch View
 
-Visit full article on [Medium]([https://pages.github.com/](https://medium.com/@fuadawaheed/biometric-authentication-in-ios-apps-a-comprehensive-how-to-guide-87346eb179df)
+Visit full article on [Medium]([https://medium.com/@fuadawaheed/biometric-authentication-in-ios-apps-a-comprehensive-how-to-guide-87346eb179df])

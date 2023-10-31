@@ -7,6 +7,7 @@ We'll create a Singleton class that handles this authentication and explain how 
 
 Mostly, biometric authentication being used to do login. This code shows other way to use biometeric authentication as well.
 This project have 
+
 Singleton Classes 
 1. 'KeychainManager'
 2. 'BiometricAuthManager'

@@ -9,11 +9,13 @@ Mostly, biometric authentication being used to do login. This code shows other w
 This project have 
 Singleton Classes 
 1. 'KeychainManager'
-2. 'BiometricAuthManager'  
+2. 'BiometricAuthManager'
+    
 Controllers
 1. LoginVC in it you will see Authentication using Biometric Authentication and also storying user credentials in KeychainManager.
 2. BalanceVC in it you will see balance being hidden then you will unhide balance using biometric authentication
 3. SettingsVC in it you will see switch to turn on/off Biometric Authentication
+   
 Views
-Main Storyboard contains all views
-LaunchScreen Storyboard contains Launch View
+1. Main Storyboard contains all views
+2. LaunchScreen Storyboard contains Launch View

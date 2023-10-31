@@ -34,7 +34,7 @@ class LoginVC: UIViewController {
         weak var weakSelf = self
         if BiometricAuthManager.shared.canUseBiometricAuthentication() {
             // Biometric authentication is available, you can enable a switch or a button to let the user turn it on.
-            switch BiometricAuthManager.shared.getBiometericType() {
+            switch BiometricAuthManager.shared.getBiometricType() {
             case .faceID:
                 weakSelf?.biometricBtnImage.image = UIImage(systemName: "faceid")
             case .touchID:

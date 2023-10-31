@@ -34,7 +34,7 @@ class SettingsVC: UIViewController {
         weak var weakSelf = self
         if BiometricAuthManager.shared.canUseBiometricAuthentication() {
             // Biometric authentication is available, you can enable a switch or a button to let the user turn it on.
-            switch BiometricAuthManager.shared.getBiometericType() {
+            switch BiometricAuthManager.shared.getBiometricType() {
             case .faceID:
                 weakSelf?.biometricImage.image = UIImage(systemName: "faceid")
                 weakSelf?.biometricLabel.text = "Enable Face ID"
@@ -55,7 +55,7 @@ class SettingsVC: UIViewController {
     func biometricNotAvailable() {
         biometricView.alpha = 0.5
         biometricView.isUserInteractionEnabled = false
-        biometricLabel.text = "Enable Biometric (Biometeric Not Available)"
+        biometricLabel.text = "Enable Biometric (Biometric Not Available)"
     }
     
     @IBAction func biometricSwitchTap(_ sender: UISwitch) {

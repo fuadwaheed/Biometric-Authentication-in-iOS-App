@@ -31,7 +31,7 @@ class BiometricAuthManager {
         var error: NSError?
         return context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error)
     }
-    func getBiometericType() -> LABiometryType {
+    func getBiometricType() -> LABiometryType {
         let context = LAContext()
         return context.biometryType
     }
